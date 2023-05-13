@@ -144,6 +144,14 @@ a {
     text-decoration: none!important;
 }
 
+a.page-link {
+    color: #0d6efd!important;
+}
+
+.page-item.active .page-link {
+    color: #fff!important;
+}
+
 @media screen and (min-width: 1200px), print {
     .nav-bar {
         padding-left: calc(50% - 884px);
