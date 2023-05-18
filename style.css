@@ -152,6 +152,10 @@ a.page-link {
     color: #fff!important;
 }
 
+.sitemap > p {
+    padding: 0px 4px;
+}
+
 @media screen and (min-width: 1200px), print {
     .nav-bar {
         padding-left: calc(50% - 884px);
