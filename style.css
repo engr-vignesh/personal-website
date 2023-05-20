@@ -156,6 +156,10 @@ a.page-link {
     padding: 0px 4px;
 }
 
+.diamond {
+    color: black;
+}
+
 @media screen and (min-width: 1200px), print {
     .nav-bar {
         padding-left: calc(50% - 884px);
