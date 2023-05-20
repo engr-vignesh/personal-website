@@ -157,7 +157,18 @@ a.page-link {
 }
 
 .diamond {
-    color: black;
+    color: black!important;
+}
+
+.category-link:hover > div:first-child {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    background: linear-gradient(to top,#d9eaf8,#fff );
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.category img {
+    width: 100px;
 }
 
 @media screen and (min-width: 1200px), print {
